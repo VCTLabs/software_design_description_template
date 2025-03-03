@@ -42,11 +42,12 @@ Contents after a fresh clone::
   ├── CONTRIBUTING.rst
   ├── LICENSE
   ├── Makefile
-  ├── README.rst
   ├── pyproject.toml
+  ├── README.rst
   ├── requirements-dia.txt
   ├── resources  # these are references or pre-inputs to the build workflow
   │   ├── SDD_DID_DI-IPSC-81435.txt     # Software Design Description DID
+  │   ├── header-levels.rst             # recommended header level chars
   │   ├── example-title-page.rst        # example title page source
   │   └── acme_webservice.py            # source code for the example system diagram
   ├── sdd
