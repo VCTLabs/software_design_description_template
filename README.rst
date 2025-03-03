@@ -11,11 +11,16 @@
 What is this thing?
 ===================
 
-This is both a GitHub Template repository *and* a usable template for a
-DID-compliant Software Test Description in reStructuredText_. This repo contains
-the following items:
+This is both a GitHub Template repository *and* a usable doc template
+for a DID-compliant Software Test Description in reStructuredText_. The
+actual "template" comes in 2 parts, the actual DID content requirements
+outline and description, and the starter document with some example
+content based on the fictional ACME company's Engineering Unit Software
+Design Description.
 
-* A Data Item Descripttion for a Software Test Description (SDD)
+This repo contains the following items:
+
+* A Data Item Descripttion for a Software Design Description (SDD)
   in ASCII text format
 * A DID-compliant SDD outline using all the required DID sections (in
   reStructuredText format)
@@ -41,11 +46,11 @@ Contents after a fresh clone::
   ├── pyproject.toml
   ├── requirements-dia.txt
   ├── resources  # these are references or pre-inputs to the build workflow
-  │   ├── SDD_DID_DI-IPSC-81439.txt     # Software Test Description DID
+  │   ├── SDD_DID_DI-IPSC-81435.txt     # Software Design Description DID
   │   ├── example-title-page.rst        # example title page source
   │   └── acme_webservice.py            # source code for the example system diagram
-  ├── std
-  │   ├── EU_SDD.rst                    # source code for the document/template
+  ├── sdd
+  │   ├── EU_SDD.rst                    # source code for the starter document (template)
   │   ├── Makefile
   │   ├── images                        # graphics sources for document build
   │   │   ├── acme.png
