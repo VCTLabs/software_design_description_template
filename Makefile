@@ -1,7 +1,7 @@
 default: docs
 
 docs:
-	$(MAKE) -C std
+	$(MAKE) -C sdd
 
 clean:
-	$(MAKE) -C std clean
+	$(MAKE) -C sdd clean
