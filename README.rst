@@ -12,7 +12,7 @@ What is this thing?
 ===================
 
 This is both a GitHub Template repository *and* a usable doc template
-for a DID-compliant Software Test Description in reStructuredText_. The
+for a DID-compliant Software Design Description in reStructuredText_. The
 actual "template" comes in 2 parts, the actual DID content requirements
 outline and description, and the starter document with some example
 content based on the fictional ACME company's Engineering Unit Software
@@ -169,7 +169,7 @@ Contributing
 Please read CONTRIBUTING_ for details on the code of conduct and some general
 guidance on submitting pull requests.
 
-.. _CONTRIBUTING: https://github.com/VCTLabs/software_user_manual_template/blob/master/CONTRIBUTING.rst
+.. _CONTRIBUTING: https://github.com/VCTLabs/software_design_description_template/blob/master/CONTRIBUTING.rst
 
 Pre-commit
 ----------
@@ -229,15 +229,15 @@ License
 This project is licensed under the MIT license - see the `LICENSE file`_ for
 details.
 
-.. _LICENSE file: https://github.com/VCTLabs/software_user_manual_template/blob/master/LICENSE
+.. _LICENSE file: https://github.com/VCTLabs/software_design_description_template/blob/master/LICENSE
 
 
-.. |license| image:: https://img.shields.io/github/license/VCTLabs/software_user_manual_template
-    :target: https://github.com/VCTLabs/software_user_manual_template/blob/master/LICENSE
+.. |license| image:: https://img.shields.io/github/license/VCTLabs/software_design_description_template
+    :target: https://github.com/VCTLabs/software_design_description_template/blob/master/LICENSE
     :alt: License
 
-.. |tag| image:: https://img.shields.io/github/v/tag/VCTLabs/software_user_manual_template?color=green&include_prereleases&label=latest%20release
-    :target: https://github.com/VCTLabs/software_user_manual_template/releases
+.. |tag| image:: https://img.shields.io/github/v/tag/VCTLabs/software_design_description_template?color=green&include_prereleases&label=latest%20release
+    :target: https://github.com/VCTLabs/software_design_description_template/releases
     :alt: GitHub tag
 
 .. |python| image:: https://img.shields.io/badge/python-3.6+-blue.svg
@@ -248,6 +248,6 @@ details.
    :target: https://github.com/pre-commit/pre-commit
    :alt: pre-commit
 
-.. |contributors| image:: https://img.shields.io/github/contributors/VCTLabs/software_user_manual_template
-   :target: https://github.com/VCTLabs/software_user_manual_template/
+.. |contributors| image:: https://img.shields.io/github/contributors/VCTLabs/software_design_description_template
+   :target: https://github.com/VCTLabs/software_design_description_template/
    :alt: Contributors
